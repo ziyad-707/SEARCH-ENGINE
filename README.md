@@ -32,25 +32,23 @@ The system supports multiple retrieval models:
 
 📁 File Structure
 
-Main.java                // Program entry point and menu
-m_invIndex.java          // Manages indexing, loading files, and statistics
-Index.java               // Document index using linked lists
-InvertedIndex.java       // Inverted index using linked lists
-InvertedIndexBST.java    // Inverted index using BST
-Document.java            // Represents a document
-Word.java                // Represents a term and its document list
-
-LinkedList.java          // Custom generic linked list
-Node.java                // Linked list node
-List.java                // List interface
-BST.java                 // Binary Search Tree implementation
-BSTNode.java             // BST node
-
-Queryindex.java          // Boolean queries using index
-Query.java               // Boolean queries using inverted index (list)
-QueryBST.java            // Boolean queries using inverted index (BST)
-Ranking.java             // Ranked retrieval logic
-Doc_Rank.java            // Document ranking object
+- Main.java                // Program entry point and menu
+- m_invIndex.java          // Manages indexing, loading files, and statistics
+- Index.java               // Document index using linked lists
+- InvertedIndex.java       // Inverted index using linked lists
+- InvertedIndexBST.java    // Inverted index using BST
+- Document.java            // Represents a document
+- Word.java                // Represents a term and its document list
+- LinkedList.java          // Custom generic linked list
+- Node.java                // Linked list node
+- List.java                // List interface
+- BST.java                 // Binary Search Tree implementation
+- BSTNode.java             // BST node
+- Queryindex.java          // Boolean queries using index
+- Query.java               // Boolean queries using inverted index (list)
+- QueryBST.java            // Boolean queries using inverted index (BST)
+- Ranking.java             // Ranked retrieval logic
+- Doc_Rank.java            // Document ranking object
 
 📄 Input Files
 
